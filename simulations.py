@@ -1,5 +1,6 @@
 import numpy as np
 import scipy.stats as stats
+np.random.seed(2019)
 
 def simulate_days_ttests_with_samples(days_pairs, one_day, two_days, three_days, four_days, five_days, sample_size=30):
     """Takes random samples from each of the days per week dataframes. """
