@@ -1,6 +1,9 @@
 import numpy as np
 import scipy.stats as stats
-np.random.seed(2019)
+import random
+
+random.seed(1000)
+#np.random.seed(2019)
 
 def simulate_days_ttests_with_samples(days_pairs, one_day, two_days, 
                                       three_days, four_days, five_days, 

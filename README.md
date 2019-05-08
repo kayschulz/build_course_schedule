@@ -11,8 +11,7 @@ A university wants to set it's students up for success. One way in which that ca
 
 Below is a database schema of the UW Madison Grade Database. It does not show if relationships are one-to-many, one-to-one, etc, but it does show connections between primary and foreign keys.
 
-
-![Screen%20Shot%202019-05-07%20at%203.32.29%20PM.png](attachment:Screen%20Shot%202019-05-07%20at%203.32.29%20PM.png)
+![uw_madison_schema.png](attachment:uw_madison_schema.png)
 
 ## Data Preparation
 
