@@ -3,8 +3,6 @@ import scipy.stats as stats
 import math
 import pandas as pd
 
-np.random.seed(2019)
-
 
 def simulate_days_ttests_with_samples(days_pairs, ratio_of_as,
                                       seed, sample_size=30):
