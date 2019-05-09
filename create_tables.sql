@@ -54,7 +54,7 @@ DROP TABLE IF EXISTS rooms;
 CREATE TABLE rooms(
             uuid TEXT PRIMARY KEY
             ,facility_code TEXT
-            ,roow_code TEXT);
+            ,room_code TEXT);
 
 
 DROP TABLE IF EXISTS schedules;
