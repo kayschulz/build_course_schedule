@@ -80,7 +80,7 @@ CREATE TABLE sections(
             ,section_type TEXT
             ,number INTEGER
 	    ,room_uuid TEXT
-	    ,sechedule_uuid TEXT);
+	    ,schedule_uuid TEXT);
 
 
 DROP TABLE IF EXISTS subject_memberships;
