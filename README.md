@@ -2,10 +2,11 @@
 
 Team Member 1: Alexander Bailey
 Team Member 2: Kayli Leung
+[Presentation]()
 
 ## Business Understanding
 
-A university wants to set it's students up for success. One way in which that can be done is to create a schedule that maximizes the the percentage of A's in a specific class. Using [Kaggle's UW Madison Grade's Database](https://www.kaggle.com/Madgrades/uw-madison-courses), we will explore different factors that make up a schedule with this goal in mind.
+A university wants to set it's students up for success. One way in which that can be done is to create a schedule that maximizes the the percentage of A's in a specific class. Using [Kaggle's UW Madison Grade's Database](https://www.kaggle.com/Madgrades/uw-madison-courses), we will explore different factors that make up a schedule with this goal in mind. Without an indicator we cannot distinguish between Undergraduate and Graduate classes, therefore the recommendations will apply to the entirety of the University's courses.
 
 ## Data Understanding
 
@@ -21,13 +22,14 @@ We specifically want to look at Lecture and Seminar sections. This is because In
 
 ## Questions Explored
 
+### [Time of Day] ()
 1. Does the time of day in which a class starts (AM or PM) have an effect on the percentage of A's given to a class? 
 
-We ran a two-tailed, two-sample t-test and found there is no significant difference in percentage of A's in AM or PM classes. For a deeper look into our test, look [here]().
+We ran a two-tailed, two-sample t-test and found there is **no significant difference** in percentage of A's in AM or PM classes. 
 
 2. Does the length of the class have an effect on the percentage of A's given to a class? 
 
-We ran several t-tests and found there is not a statistically significant difference between short (1 hour) and medium classes (1-2 hours), but long classes (2-3 hours) is statistically better than both medium and short classes. For a deeper look into our tests, look [here]().
+We ran several t-tests and found there is not a statistically significant difference between short (1 hour) and medium classes (1-2 hours), but long classes (2-3 hours) are statistically better than both medium and short classes. 
 
 3. Does the number of days a class meets have an effect on the percentage of A's given to a class? 
 
@@ -41,4 +43,3 @@ We ran a two-tailed, two-sample t-test and found there is no significant differe
 
 We would suggest creating a schedule in which each class meets less times a week, but for a longer period of time. If space allows the ideal would be one, three hour lecture a week. It does not matter whether that class is in the AM or PM.
 
-[Executive Presentation]()
