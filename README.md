@@ -22,7 +22,9 @@ We specifically want to look at Lecture and Seminar sections. This is because In
 
 ## Questions Explored
 
-### [Time of Day] ()
+
+### [Time of Day]( )
+
 1. Does the time of day in which a class starts (AM or PM) have an effect on the percentage of A's given to a class? 
 
 We ran a two-tailed, two-sample t-test and found there is **no significant difference** in percentage of A's in AM or PM classes. 
