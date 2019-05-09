@@ -36,7 +36,8 @@ def simulate_days_ttests_with_samples(days_pairs, ratio_of_as,
             second = samples['five']
 
         print(days1, days2)
-        print(stats.ttest_ind(first, second))
+        t, p = stats.ttest_ind(first, second)
+        print("pvalue: " + str(round(p, 3)))
 
 
 def get_sample_size(moe, z, vars_and_n):
