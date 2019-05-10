@@ -1,12 +1,12 @@
 # Building A Better Course Schedule
 
-Team Member 1: Alexander Bailey \n
-Team Member 2: Kayli Leung \n
-[Presentation]()
+Team Member 1: Alexander Bailey
+Team Member 2: Kayli Leung
+[Presentation](presentation.pdf)
 
 ## Business Understanding
 
-A university wants to set it's students up for success. One way in which that can be done is to create a schedule that maximizes the the percentage of A's in a specific class. Using [Kaggle's UW Madison Grade's Database](https://www.kaggle.com/Madgrades/uw-madison-courses), we will explore different factors that make up a schedule with this goal in mind. Without an indicator we cannot distinguish between Undergraduate and Graduate classes, therefore the recommendations will apply to the entirety of the University's courses.
+A university wants to set its students up for success. One way in which that can be done is to create a schedule that maximizes the the percentage of A's in a specific class. Using [Kaggle's UW Madison Grade's Database](https://www.kaggle.com/Madgrades/uw-madison-courses), we will explore different factors that make up a schedule with this goal in mind. Without an indicator we cannot distinguish between Undergraduate and Graduate classes, therefore the recommendations will apply to the entirety of the University's courses.
 
 ## Data Understanding
 
@@ -49,5 +49,5 @@ We ran a two-tailed, two-sample t-test and found there is **no significant diffe
 We would suggest creating a schedule in which each class meets less times a week, but for a longer period of time. If space allows the ideal would be one, three hour lecture a week. It does not matter whether that class is in the AM or PM.
 
 ## Future Exploration
-We would like to further evaluate different subject by time of day as we have only completed Math so far. We would also like to separate our data into Undergraduate and Graduate courses.
+We would like to further evaluate different subject by time of day as we have only completed Math so far. We would also like to separate our data into Undergraduate and Graduate courses. We would also like to graph multiple trials to show how the significance changes with different samples.
 
